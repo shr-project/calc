@@ -123,7 +123,7 @@ class MainGUI_E:
     tab = e.Table(mainbox)
     tab.size_hint_align_set(-1.0, -1.0)
     tab.size_hint_weight_set(1.0, 1.0)
-    tab.homogenous_set(True)
+    tab.homogeneous_set(True)
     for (i, key) in enumerate(self.keys):
       bt = e.Button(tab)
       bt.size_hint_align_set(-1.0, -1.0)
